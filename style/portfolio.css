@@ -10,4 +10,11 @@
 header
 {
     background-color: #ffb885;
+    padding-top: 50px;
+} 
+nav
+{
+    width: 71%;
+    max-width: 1140px;
+    border: 0px solid black;
 }
