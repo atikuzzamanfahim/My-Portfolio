@@ -1,63 +1,98 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-/* shared style */
+    margin:0px;
+    padding: 0px;
 }
+/* share style */
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-
+  
 }
-.logo h2{
+.logo h2
+{
     font-size: 45px;
-    font-weight: 900;
+
 }
 .color-orange
 {
     color: #FD6E0A;
-    
-
+    font-weight: 900;
 }
-.btn{
-    background-color:#FD6E0A ;
-    border:none;
-    padding: 18px 35px;
+.btn
+{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18Px 35px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-
-
-/* main style */
 header
 {
     background-color: #FFF8F3;
+    background: url("../images/developer.png"),url(../images/header_bg.png),  #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
-}
-
-nav{
+} 
+nav
+{
     width: 71%;
     max-width: 1140px;
-    /* border: 1px solid rebeccapurple; */
+    /* border: 0px solid black; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-nav .menu
-{
+nav .menu{
     display: flex;
     list-style-type: none;
-    gap :51px;
+    gap: 51px;
     align-items: center;
-
 }
-nav .menu a
-{
+nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+#banner .banner-content
+{
+    max-width: 585px;
+}
+#banner
+{
+    /* border: 1px solid yellow; */
+    margin:47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content h2
+{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1
+{
+    font-size: 55px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+    
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img
+{
+    max-width: 585px;
+    vertical-align: middle;
 }
