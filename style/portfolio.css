@@ -116,7 +116,7 @@ nav .menu a{
     vertical-align: middle;
 }
 
-#about{
+#about, #skills, #resume{
     padding-top:130px;
 }
 #about .about-container{
@@ -137,10 +137,7 @@ nav .menu a{
     line-height: 30px;
     
 }
-#skills
-{
-    padding-top: 130px;
-}
+
 #skills .skills-container
 {
     width: 71%;
@@ -173,5 +170,12 @@ nav .menu a{
     color: #757575;
     line-height: 30px;
     
+}
+#resume .resume-container
+{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
 }
 
